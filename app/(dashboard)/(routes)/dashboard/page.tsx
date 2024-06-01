@@ -67,7 +67,7 @@ const Dashboard = () => {
   return (
     <div className='p-5'>
         <h2 className='font-bold text-3xl'>Hi,{user?.fullName} ✌️</h2>
-        <p className='text-gray-500'>Here's what happenning with your money, Lets Manage your expense</p>
+        <p className='text-gray-500'>Here what happenning with your money, Lets Manage your expense</p>
         <CardInfo budgetList={budgetList}/>
         <div className='grid grid-cols-1 md:grid-cols-3 mt-6 gap-5'>
             <div className='md:col-span-2'>
